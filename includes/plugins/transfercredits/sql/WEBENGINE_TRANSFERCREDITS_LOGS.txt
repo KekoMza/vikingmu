@@ -1,0 +1,23 @@
+SET ANSI_NULLS ON
+
+SET QUOTED_IDENTIFIER ON
+
+SET ANSI_PADDING ON
+
+CREATE TABLE [dbo].[WEBENGINE_TRANSFERCREDITS_LOGS](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[amount] [int] NOT NULL,
+	[sent_by] [varchar](50) NOT NULL,
+	[sent_to] [varchar](50) NOT NULL,
+	[date_sent] [datetime] NOT NULL,
+	[is_received] [smallint] NOT NULL,
+	[date_received] [datetime] NULL,
+	[credit_config] [int] NOT NULL,
+	[credits_title] [varchar](50) NULL
+) ON [PRIMARY]
+
+SET ANSI_PADDING OFF
+
+ALTER TABLE [dbo].[WEBENGINE_TRANSFERCREDITS_LOGS] ADD  CONSTRAINT [DF_WEBENGINE_TRANSFERCREDITS_LOGS_is_received]  DEFAULT ((0)) FOR [is_received]
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<enable_transfer_tax>1</enable_transfer_tax>
+	<transfer_tax>10</transfer_tax>
+	<credit_configs>1</credit_configs>
+	<transfer_minimum_limit>10</transfer_minimum_limit>
+	<transfer_maximum_limit>10000</transfer_maximum_limit>
+	<enable_email_verification>0</enable_email_verification>
+	<ignore_receiver_online_status>0</ignore_receiver_online_status>
+</settings>

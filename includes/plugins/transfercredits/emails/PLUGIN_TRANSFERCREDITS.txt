@@ -1,0 +1,7 @@
+Dear {USERNAME},<br /><br />
+
+The player {SENDER_PLAYER_NAME} has transferred {CREDITS_AMOUNT} {CREDITS_NAME} to your account.<br />
+To confirm this transfer and receive the credits, please <a href="{CONFIRM_LINK}" target="_blank">CLICK HERE</a>.<br /><br />
+
+Regards,<br />
+{SERVER_NAME}.
