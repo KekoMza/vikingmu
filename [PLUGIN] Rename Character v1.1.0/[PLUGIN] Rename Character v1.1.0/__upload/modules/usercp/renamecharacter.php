@@ -1,0 +1,18 @@
+<?php
+/**
+ * Rename Character
+ * https://webenginecms.org/
+ * 
+ * @version 1.0.0
+ * @author Lautaro Angelico <http://lautaroangelico.com/>
+ * @copyright (c) 2013-2019 Lautaro Angelico, All Rights Reserved
+ * @build w3c8c718b75a0f1fa1a557f7f9d70877
+ */
+
+try {
+	if(!class_exists('Plugin\RenameCharacter\RenameCharacter')) throw new Exception('Plugin disabled.');
+	$RenameCharacter = new Plugin\RenameCharacter\RenameCharacter();
+	$RenameCharacter->loadModule('rename');
+} catch(Exception $ex) {
+	message('error', $ex->getMessage());
+}

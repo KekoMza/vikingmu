@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<rename_cost>5000</rename_cost>
+	<config_id>0</config_id>
+	<min_len>3</min_len>
+	<max_len>10</max_len>
+</settings>

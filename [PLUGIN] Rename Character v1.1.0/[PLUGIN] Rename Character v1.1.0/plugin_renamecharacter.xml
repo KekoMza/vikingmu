@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<name>Rename Character</name>
+	<author>Lautaro</author>
+	<version>1.1.0</version>
+	<compatibility>
+		<webengine>1.2.0</webengine>
+		<webengine>1.2.1</webengine>
+		<webengine>1.2.2</webengine>
+		<webengine>1.2.3</webengine>
+		<webengine>1.2.4</webengine>
+		<webengine>1.2.5</webengine>
+		<webengine>1.2.6</webengine>
+		<webengine>1.2.7</webengine>
+		<webengine>1.2.8</webengine>
+		<webengine>1.2.9</webengine>
+	</compatibility>
+	<folder>renamecharacter</folder>
+	<files>
+		<file>loader.php</file>
+	</files>
+</settings>
